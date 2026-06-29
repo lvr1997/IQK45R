@@ -37,5 +37,5 @@ keys = """
 Esc Q W E R T Y U I O P Backspace _ _ _ _
 Tab A S D F G H J K L Enter _ _ _ _ _
 LShift RShift Z X C V B N M Comma Dot Up _ _ _ _
-LControl LWin LAlt MO(3) LT(1, Space) Space MO(2) Left Right Down _ _ _ _ _ _
+LCtrl LWin LAlt MO(3) LT(1, Space) Space MO(2) Left Right Down _ _ _ _ _ _
 """
