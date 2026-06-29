@@ -34,37 +34,8 @@ matrix_map = """
 [[layer]]
 name = "base_layer"
 keys = """
-Esc Q W E R T Y U I O P Backspace 
-Tab A S D F G H J K L Enter 
-LShift RShift Z X C V B N M Comma Dot UpArrow 
-LControl LWin LAlt MO(3) LT(1, Space) Space MO(2) LeftArrow RightArrow DownArrow
-"""
-
-# layer 1:
-[[layer]]
-name = "number_symbol" # Number and symbol
-keys = """
-Esc Dot Num7 Num8 Num9 Plus Asterisk Dollar Colon Pipe Grave _
-Tab Num0 Num4 Num5 Num6 Minus Slash Hash LeftCurlyBracket RightCurlyBracket Semicolon
-LShift RShift Backspace Num1 Num2 Num3 Equal Backslash Ampersand Less Greater Quote
-LControl LWin LAlt Enter TO(0) CapsLock Space _ _ _
-"""
-
-# layer 2: 
-[[layer]]
-name = "symbol_func"
-keys = """
-_ Tilde Percent Underscore Caret Plus F9 F10 F11 F12 _ Delete
-Tab At Quote Exclamation MarkQuestion Minus F5 F6 F7 F8  _
-LShift RShift LeftBracket RightBracket LeftParen RightParen Equal F1 F2 F3 F4 PageUp
-LControl LWin LAlt _ _ _ TO(0) Home End PageDown
-"""
-# layer 3:
-[[layer]]
-name = "software_shortcuts"
-keys = """
-NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp
-NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp
-NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp NoOp
-NoOp NoOp NoOp TO(0) Play Mute Prev Next VolumeDown VolumeUp
+Esc Q W E R T Y U I O P Backspace _ _ _ _
+Tab A S D F G H J K L Enter _ _ _ _
+LShift RShift Z X C V B N M Comma Dot UpArrow _ _ _ _
+LControl LWin LAlt MO(3) LT(1, Space) Space MO(2) LeftArrow RightArrow DownArrow _ _ _ _
 """
