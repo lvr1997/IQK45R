@@ -1,0 +1,15 @@
+[package]
+name = "iqk45r"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rmk = { version = "0.8", features = ["rp2040", "vial"] }
+embassy-rp = { version = "0.1", features = ["unstable-pac", "time-driver"] }
+embassy-time = { version = "0.3", features = ["defmt"] }
+ws2812-pio = "0.6"
+rp2040-hal = "0.10"
+
+[profile.release]
+opt-level = "s"
+lto = true
